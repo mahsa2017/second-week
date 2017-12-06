@@ -1,0 +1,45 @@
+body{
+    width:70%;
+    margin:auto;
+}
+header, #footer {
+background-color:rgb(247, 139, 202);
+
+}
+section{
+    display:flex;
+    background-color: rgb(241, 192, 211);
+    text-align:center;
+} 
+
+.side-bar img {
+    width:20%;
+}
+img{
+    width:35%;
+}
+.side-bar
+ { background:#aaf;
+     float:right; 
+     height:300px; 
+     width:20%;
+ }
+
+.content 
+{
+    background-color: rgb(241, 192, 211);
+    float:left; 
+    height:400px;
+    width:80%; 
+    }
+
+@media screen and (max-width: 1000px) {	
+  .side-bar { 
+    clear:both; 
+    width:100%
+ }
+  .content
+   { 
+    width:100%;
+     }
+}
