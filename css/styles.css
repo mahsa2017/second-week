@@ -4,6 +4,8 @@ body{
 }
 header, #footer {
 background-color:rgb(247, 139, 202);
+clear:both;
+
 
 }
 section{
@@ -22,7 +24,9 @@ img{
  { background:#aaf;
      float:right; 
      height:300px; 
-     width:20%;
+     width:18%;
+     
+
  }
 
 .content 
@@ -33,7 +37,7 @@ img{
     width:80%; 
     }
 
-@media screen and (max-width: 1000px) {	
+@media screen and (max-width: 700px) {	
   .side-bar { 
     clear:both; 
     width:100%
